@@ -1,0 +1,152 @@
+body{
+
+    background:
+    linear-gradient(
+        to bottom,
+        #3e2723,
+        #1b120d
+    );
+
+    color:white;
+
+    font-family:Arial;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    height:100vh;
+
+    margin:0;
+}
+
+.container{
+
+    text-align:center;
+
+    width:90%;
+    max-width:700px;
+
+    padding:20px;
+}
+
+h1{
+
+    font-size:55px;
+
+    margin-bottom:15px;
+
+    letter-spacing:2px;
+}
+
+#status{
+
+    font-size:55px;
+
+    white-space:pre-line;
+
+    min-height:100px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+
+    font-weight:bold;
+
+    margin:10px 0;
+}
+
+#players{
+
+    font-size:22px;
+
+    margin:10px 0;
+}
+
+#players p{
+
+    margin:5px;
+}
+
+#shots{
+
+    margin-top:10px;
+
+    font-size:28px;
+
+    min-height:40px;
+}
+
+#winner{
+
+    margin-top:15px;
+
+    font-size:40px;
+
+    min-height:60px;
+
+    font-weight:bold;
+}
+
+button{
+
+    margin-top:20px;
+
+    padding:12px 28px;
+
+    font-size:22px;
+
+    border:none;
+
+    border-radius:12px;
+
+    cursor:pointer;
+
+    transition:0.2s;
+}
+
+button:hover{
+
+    transform:scale(1.05);
+
+}
+
+@media (max-width: 900px){
+
+    h1{
+
+        font-size:40px;
+
+    }
+
+    #status{
+
+        font-size:45px;
+
+        min-height:80px;
+
+    }
+
+    #players{
+
+        font-size:18px;
+
+    }
+
+    #winner{
+
+        font-size:30px;
+
+    }
+
+    button{
+
+        font-size:18px;
+
+        padding:10px 20px;
+
+    }
+
+}

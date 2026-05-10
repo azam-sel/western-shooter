@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <meta name="viewport"
+       content="width=device-width, initial-scale=1.0">
+    
+    <title>Western Gunner</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🤠 WESTERN GUNNER</h1>
+
+    <div id="status">
+        PRESS START
+    </div>
+
+    <div id="players">
+
+        <p id="p1">
+            Player 1 : Disconnected
+        </p>
+
+        <p id="p2">
+            Player 2 : Disconnected
+        </p>
+
+    </div>
+
+    <div id="shots"></div>
+
+    <div id="winner"></div>
+
+    <button id="startBtn">
+        START GAME
+    </button>
+
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="client.js"></script>
+
+</body>
+
+</html>
