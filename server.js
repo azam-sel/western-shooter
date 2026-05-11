@@ -18,7 +18,7 @@ const io = new Server(httpServer, {
 
 app.use(express.static('public'));
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 7860;
 
 httpServer.listen(PORT, "0.0.0.0", () => {
 
