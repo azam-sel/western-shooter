@@ -6,7 +6,15 @@ const { Server } = require('socket.io');
 // EXPRESS + SOCKET.IO
 // =========================
 
+const express = require('express');
 const app = express();
+
+app.get('/', (req, res) => {
+  res.send('Server is running on Vercel!');
+});
+
+// For Vercel, export the app instead of just app.listen()
+module.exports = app;
 
 const httpServer = http.createServer(app);
 
